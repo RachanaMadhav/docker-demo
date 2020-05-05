@@ -11,7 +11,7 @@ services:
   currency-conversion:
     image: rachanamadhav/currency-conversion:latest
     ports:
-      - "8100:8100"
+      - "8080:8080"
     restart: always
     environment:
       CURRENCY_EXCHANGE_SERVICE_HOST: http://currency-exchange
